@@ -4,7 +4,15 @@ const loginAction = document.querySelector(".login_action")
 const images = document.querySelectorAll(".image")
 const currentCity = document.querySelector(".current_city")
 const jumbotron = document.querySelector(".jumbotron")
+const siteLogo = document.querySelector(".navbar-brand")
 
+
+const locationBuilder = "https://" + location.host + "/Frontendproject"
+
+siteLogo.addEventListener("click", (e) => {
+    e.preventDefault();
+    location.href = locationBuilder
+})
 
 // If user is logged in hide the login link
 const loggedInUser = JSON.parse(localStorage.getItem("logged_in"))
