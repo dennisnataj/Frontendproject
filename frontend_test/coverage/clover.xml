@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1610385512543" clover="3.2.0">
+  <project timestamp="1610385512543" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="20" coveredelements="20" complexity="0" loc="17" ncloc="17" packages="1" files="5" classes="5"/>
+    <file name="Dishes.js" path="C:\Users\Dennis\Desktop\frontend\frontend_test\js\Dishes.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+    </file>
+    <file name="Flickr.js" path="C:\Users\Dennis\Desktop\frontend\frontend_test\js\Flickr.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+    </file>
+    <file name="Login.js" path="C:\Users\Dennis\Desktop\frontend\frontend_test\js\Login.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="Restaurant.js" path="C:\Users\Dennis\Desktop\frontend\frontend_test\js\Restaurant.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
+    <file name="User.js" path="C:\Users\Dennis\Desktop\frontend\frontend_test\js\User.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
