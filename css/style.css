@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+@font-face {
+    font-family: Eatgood;
+    src: url("../fonts/MilestoneFreeVersion-Script.otf") format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.primary {
+    background-color: #222;
+}
+
+.delete {
+    background-color: rgb(206, 34, 34);
+}
+
+.button {
+    padding: 8px 10px;
+    color: #fff;
+    display: inline-block;
+    margin: 1rem 0;
+    border-radius: 4px;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    -webkit-box-shadow: -1px 0px 23px -2px rgba(215,15,100,0.47);
+-moz-box-shadow: -1px 0px 23px -2px rgba(215,15,100,0.47);
+box-shadow: -1px 0px 23px -2px rgba(215,15,100,0.47);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    font-size: 1.3rem;
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+}
+
+.navbar-light .navbar-brand {
+    font-family: Eatgood;
+    font-size: 2em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+}
+
+main {
+    background: linear-gradient(to bottom,#b44c4c, #b34242), url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.big-logo {
+    background-image: url(../images/foodlove.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+
+
+
+.input button {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #222;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #222;
+    margin-top: 2rem;
+}
+
+.jumbotron {
+    padding: 8rem 0;
+    color: #fff;
+}
+
+.jumbo-button {
+    width: 300px;
+    padding: 1rem;
+    background-color: #D70F64;
+    border-color: #D70F64;
+}
+
+.name {
+    color: #D70F64;
+    font-weight: normal;
+}
+
+.areas {
+    background-color: #fff;
+}
+
+.restaurants {
+    background-color: #fff;
+    position: relative;
+}
+
+.food {
+    background-color: #eeeeee;
+    color: #222;
+}
+
+.overview {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 2rem 0;
+    color: #D70F64;
+    font-size: 1.3em;
+}
+
+
+.restaurant-name {
+    color: #D70F64;
+    font-size: 1.3em;
+    margin-bottom: 3px;
+}
+
+.ingredients {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.ingredients p {
+    font-weight: bold;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+ion-icon {
+    transform: translateY(2px);
+}
+
+.success-msg {
+    background-color: #D70F64;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 1rem 0;
+    text-align: center;
+    display: none;
+}
+
+.card:hover {
+    transform: scale(1.055);
+    transition: transform 250ms linear;
+}
+
+.basket {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-205px) translateY(20px);
+}
+
+.basket p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-button {
+    background-color: #D70F64;
+    border-color: #D70F64;
+    box-shadow: none;
+    outline: none;
+}
+
+
+.main-button:hover {
+    background-color: #222;
+}
+
+a.main-button:hover {
+    color: #fff;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
